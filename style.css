@@ -171,13 +171,25 @@ font-weight:normal;
 
 .photo img {
 
-width:220px;
+width: 320px;
 
-height:220px;
+    height: auto;
 
-object-fit:cover;
+    display: block;
 
-border-radius:50%;
+    object-fit: cover;
+
+    -webkit-mask-image:
+        linear-gradient(to left,
+        transparent 0%,
+        black 20%,
+        black 100%);
+
+    mask-image:
+        linear-gradient(to left,
+        transparent 0%,
+        black 20%,
+        black 100%);
 
 }
 
