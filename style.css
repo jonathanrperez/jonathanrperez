@@ -122,12 +122,38 @@ max-width:800px;
 /* INTRO */
 
 .intro {
+    position: relative;
+    overflow: hidden;
+}
 
-display:flex;
 
-justify-content:space-between;
+.background-photo {
 
-gap:40px;
+    position: absolute;
+
+    right: 0;
+    top: 0;
+
+    width: 400px;
+
+    opacity: 0.15;
+
+    z-index: 0;
+
+    mask-image: linear-gradient(
+        to left,
+        transparent,
+        black
+    );
+
+}
+
+
+.text {
+
+    position: relative;
+
+    z-index: 1;
 
 }
 
