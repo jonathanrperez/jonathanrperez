@@ -135,7 +135,7 @@ gap:40px;
 
 h1 {
 
-font-size:48px;
+font-size:60px;
 
 font-weight:normal;
 
@@ -162,7 +162,9 @@ margin-top:60px;
 
 
 h3 {
-
+   
+border-top:1px solid #333;
+   
 color:#aaa;
 
 font-weight:normal;
@@ -183,14 +185,16 @@ width: 320px;
 
     -webkit-mask-image:
         linear-gradient(to right,
-        transparent 20%,
+        transparent 10%,
         black 20%,
         black 100%);
 
     mask-image:
         linear-gradient(to left,
-        transparent 20%,
-        black 20%,
+        transparent,                     
+        rgba(0,0,0,.25) 12%,
+        rgba(0,0,0,.55) 25%,
+        black 40%,
         black 100%);
 
 }
