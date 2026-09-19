@@ -181,13 +181,13 @@ width: 320px;
 
     -webkit-mask-image:
         linear-gradient(to right,
-        transparent 0%,
+        transparent 20%,
         black 20%,
         black 100%);
 
     mask-image:
         linear-gradient(to left,
-        transparent 0%,
+        transparent 20%,
         black 20%,
         black 100%);
 
