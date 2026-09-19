@@ -180,7 +180,7 @@ width: 320px;
     object-fit: cover;
 
     -webkit-mask-image:
-        linear-gradient(to right,
+        linear-gradient(to left,
         transparent 0%,
         black 20%,
         black 100%);
